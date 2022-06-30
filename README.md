@@ -1,10 +1,10 @@
-#Memory Game
+# Memory Game
 
 A simple Game from HTML, CSS & Javascript
 
 Just Match and try to get lowest time!
 
-#Screenshots
+# Screenshots
 
 ![image](https://user-images.githubusercontent.com/34815317/176693565-e0406f33-b9a4-4d1e-9d60-f376b7ce4599.png)
 
