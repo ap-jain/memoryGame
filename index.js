@@ -136,10 +136,6 @@ const matrixGenerator = (cardValues, size = 4) => {
     });
 };
 
-//start game
-
-//stop game
-
 
 startButton.addEventListener("click", () => {
     confetti.stop();
