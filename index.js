@@ -115,6 +115,7 @@ const matrixGenerator = (cardValues, size = 4) => {
                         winCount++;
                         if (winCount == Math.floor(cardValues.length / 2)) {
                             result.innerHTML = `<h2>You Won!</h2><h4>Moves: ${movesCount}</h4>`;
+                            confetti.start();
                             stopGame();
                         }
                     } else {
@@ -157,7 +158,6 @@ startButton.addEventListener("click", () => {
 
 })
 stopButton.addEventListener('click', (stopGame = () => {
-    confetti.start();
     controls.classList.remove("hide");
     startButton.classList.remove("hide");
     stopButton.classList.add("hide");
