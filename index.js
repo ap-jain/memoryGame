@@ -141,6 +141,7 @@ const matrixGenerator = (cardValues, size = 4) => {
 
 
 startButton.addEventListener("click", () => {
+    confetti.stop();
     movesCount = 0;
     seconds = 0;
     minutes = 0;
@@ -156,6 +157,7 @@ startButton.addEventListener("click", () => {
 
 })
 stopButton.addEventListener('click', (stopGame = () => {
+    confetti.start();
     controls.classList.remove("hide");
     startButton.classList.remove("hide");
     stopButton.classList.add("hide");
